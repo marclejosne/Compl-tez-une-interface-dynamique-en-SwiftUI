@@ -22,6 +22,10 @@
 		60C44929309C8BAC008AE3FD /* PlusJakartaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4491F309C8BAC008AE3FD /* PlusJakartaSans-ExtraLight.ttf */; };
 		60C4492A309C8BAC008AE3FD /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60C4491E309C8BAC008AE3FD /* PlusJakartaSans-ExtraBold.ttf */; };
 		60C4492B309C8BAC008AE3FD /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60C44923309C8BAC008AE3FD /* PlusJakartaSans-SemiBold.ttf */; };
+		7A10000000000000000000B1 /* SpiceLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10000000000000000000A1 /* SpiceLevelView.swift */; };
+		7A10000000000000000000B2 /* DishRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10000000000000000000A2 /* DishRowView.swift */; };
+		7A10000000000000000000B3 /* DishDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10000000000000000000A3 /* DishDetailView.swift */; };
+		7A10000000000000000000B4 /* ToolbarContent+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A10000000000000000000A4 /* ToolbarContent+Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		60C44921309C8BAC008AE3FD /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
 		60C44922309C8BAC008AE3FD /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
 		60C44923309C8BAC008AE3FD /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		7A10000000000000000000A1 /* SpiceLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceLevelView.swift; sourceTree = "<group>"; };
+		7A10000000000000000000A2 /* DishRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishRowView.swift; sourceTree = "<group>"; };
+		7A10000000000000000000A3 /* DishDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailView.swift; sourceTree = "<group>"; };
+		7A10000000000000000000A4 /* ToolbarContent+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToolbarContent+Style.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 			children = (
 				42E9DCBE2AF11439007CE7D0 /* WelcomeView.swift */,
 				42E9DCC12AF117AE007CE7D0 /* MenuView.swift */,
+				7A10000000000000000000A3 /* DishDetailView.swift */,
+				7A10000000000000000000A4 /* ToolbarContent+Style.swift */,
+				7A10000000000000000000A2 /* DishRowView.swift */,
+				7A10000000000000000000A1 /* SpiceLevelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,6 +211,10 @@
 				428D2B532AFA882700BBA4F5 /* ViewModel.swift in Sources */,
 				42E9DCBF2AF11439007CE7D0 /* WelcomeView.swift in Sources */,
 				42E9DCC22AF117AE007CE7D0 /* MenuView.swift in Sources */,
+				7A10000000000000000000B3 /* DishDetailView.swift in Sources */,
+				7A10000000000000000000B4 /* ToolbarContent+Style.swift in Sources */,
+				7A10000000000000000000B2 /* DishRowView.swift in Sources */,
+				7A10000000000000000000B1 /* SpiceLevelView.swift in Sources */,
 				42E9DCAE2AF11136007CE7D0 /* TajMahalApp.swift in Sources */,
 				428D2B512AFA851900BBA4F5 /* Model.swift in Sources */,
 			);
